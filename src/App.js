@@ -521,7 +521,7 @@ function App(props) {
             <IconButton href="mailto:nithin.dara2017@gmail.com">
               <Email className={classes.appIcon}/>
             </IconButton>
-            <IconButton href="www.linkedin.com/in/nithin-dara-b5721a273">
+            <IconButton target="_blank" href="https://www.linkedin.com/in/nithin-dara-b5721a273/">
               <LinkedIn className={classes.appIcon}/>
             </IconButton>
           </Grid>
