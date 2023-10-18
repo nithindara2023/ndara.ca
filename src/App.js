@@ -401,7 +401,7 @@ function App(props) {
                     </Typography>
                     <br />
                     <Typography variant="h6">
-                      HTML, CSS, Java Script, Jquery, OOPs, MVC, Wordpress, PHP, MySQL, Agile.
+                      HTML, CSS, Java Script, Jquery, OOPs, MVC, WordPress, PHP, MySQL, Agile Work Environment.
                     </Typography>
                     <br />
                     <div className={classes.underline}/>
@@ -426,7 +426,7 @@ function App(props) {
                   <br />
                   <Typography variant="h6">
                     Balsamiq Tool, React, Node, HTML, CSS, Manual Testing,
-                    Jira, PHP, Wordpress, MysQl, SQL.
+                    Jira, PHP, WordPress, MysQl, SQL.
                   </Typography>
                   <br />
                   <div className={classes.underline}/>
