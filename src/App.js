@@ -401,7 +401,7 @@ function App(props) {
                     </Typography>
                     <br />
                     <Typography variant="h6">
-                      HTML, CSS, Java Script, Jquery, OOPs, MVC, Wordpress, PHP, MySQL, Agile and Waterfall .
+                      HTML, CSS, Java Script, Jquery, OOPs, MVC, Wordpress, PHP, MySQL, Agile.
                     </Typography>
                     <br />
                     <div className={classes.underline}/>
