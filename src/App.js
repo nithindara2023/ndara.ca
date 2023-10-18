@@ -23,7 +23,10 @@ import ProjectCard from './components/ProjectCard';
 import { Email, GitHub, LinkedIn } from '@material-ui/icons';
 import InspeQ from './assets/inspeq.jpg';
 import DataEntry from './assets/dataEntry.jpg';
-import khs from './assets/khs.png';
+import thermaX from './assets/thermaX.png';
+import inPropertyD from './assets/inPropertyD.png';
+import quadN from './assets/quadN.png';
+import fta from './assets/fta.png';
 import Inview from './assets/inview.jpg';
 import Punchclock from './assets/punchclock.jpg';
 import Link from '@mui/material/Link';
@@ -389,7 +392,7 @@ function App(props) {
                     <Avatar className={classes.specialistIcon}>
                       <CodeIcon />
                     </Avatar>
-                    <Typography variant="h5">Web Developer</Typography>
+                    <Typography variant="h5">Front-End Developer</Typography>
                     <Typography variant="h6">-- Wireframe Solutions --</Typography>
                     <div className={classes.underline}/>
                     <br /><br />
@@ -413,7 +416,7 @@ function App(props) {
                   <Avatar className={classes.specialistIcon}>
                     <CodeIcon />
                   </Avatar>
-                  <Typography variant="h5">Full Stack Developer</Typography>
+                  <Typography variant="h5">Full-Stack Developer</Typography>
                   <Typography variant="h6">-- Skyhidev Solutions --</Typography>
                   <div className={classes.underline}/>
                   <br /><br />
@@ -423,7 +426,7 @@ function App(props) {
                   <br />
                   <Typography variant="h6">
                     Balsamiq Tool, React, Node, HTML, CSS, Manual Testing,
-                    Jira, PHP, Wordpress, MySQL.
+                    Jira, PHP, Wordpress, MysQl, SQL.
                   </Typography>
                   <br />
                   <div className={classes.underline}/>
@@ -438,7 +441,7 @@ function App(props) {
                       <Avatar className={classes.specialistIcon}>
                         <CodeIcon />
                       </Avatar>
-                      <Typography variant="h5">Software Developer</Typography>
+                      <Typography variant="h5">Full-Stack Developer</Typography>
                       <Typography variant="h6">-- Q2 management Inc --</Typography>
                       <div className={classes.underline}/>
                       <br /><br />
@@ -447,9 +450,9 @@ function App(props) {
                       </Typography>
                       <br />
                       <Typography variant="h6">
-                        AWS, S3, Lambda, React, Node, Material UI
-                        Kotlin, Angular, react hooks, Redux,
-                        Mysql, Chart Js.
+                        AWS, React, Node, Material UI
+                        Redux, Angular, GraphQL,
+                        Mysql, Chart Js, D3, PHP.
                       </Typography>
                       <br />
                       <div className={classes.underline}/>
@@ -497,11 +500,35 @@ function App(props) {
                 projectImage={Inview}/>
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={2}>
-              <Link target="_blank" href="https://kusalaherbalstores.com" color="inherit">
+              <Link target="_blank" href="https://thermaxx.com.au/" color="inherit">
                 <ProjectCard isVisible={projectsVisible} timeout={2250}
-                  projectTitle="Kusala Herbal Stores"
-                  projectDescription="Ecommerce website for Indian Herabal Products.  Built on Worpress, as per customer requirements"
-                  projectImage={khs}/>
+                  projectTitle="Thermaxx"
+                  projectDescription="A website developed on WordPress for a company specializing in refrigerated bodies, meeting specific customer requirements."
+                  projectImage={thermaX}/>
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
+              <Link target="_blank" href="https://inpropertydesign.com.au/" color="inherit">
+                <ProjectCard isVisible={projectsVisible} timeout={2250}
+                  projectTitle="In Property Design"
+                  projectDescription="A website developed on WordPress for a company specializing in residential development, tailored to customer requirements."
+                  projectImage={inPropertyD}/>
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
+              <Link target="_blank" href="https://www.quadnet.com.au/" color="inherit">
+                <ProjectCard isVisible={projectsVisible} timeout={2250}
+                  projectTitle="Quadnet"
+                  projectDescription="A website developed on WordPress for an IT provider company, as per customer requirements"
+                  projectImage={quadN}/>
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
+              <Link target="_blank" href="https://www.quadnet.com.au/" color="inherit">
+                <ProjectCard isVisible={projectsVisible} timeout={2250}
+                  projectTitle="Focus Tennis Academy"
+                  projectDescription="A website developed on WordPress for a fitness club focusing on tennise"
+                  projectImage={fta}/>
               </Link>
             </Grid>
           </Grid>
