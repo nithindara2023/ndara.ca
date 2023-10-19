@@ -446,13 +446,13 @@ function App(props) {
                       <div className={classes.underline}/>
                       <br /><br />
                       <Typography variant="h5">
-                        Migrated projects from Angular to React. Agile work environment, Gained experience on react functional components, updates to the andriod apps.
+                        Migrated projects from PHP to React. Agile work environment, Gained experience with React functional components and the testing framework Jest.
                       </Typography>
                       <br />
                       <Typography variant="h6">
-                        AWS, React, Node, Material UI
+                        AWS, React, Node, Material UI,
                         Redux, Angular, GraphQL,
-                        Mysql, Chart Js, D3, PHP.
+                        Mysql, Chart Js, D3, PHP, Jest.
                       </Typography>
                       <br />
                       <div className={classes.underline}/>
@@ -527,7 +527,7 @@ function App(props) {
               <Link target="_blank" href="https://www.quadnet.com.au/" color="inherit">
                 <ProjectCard isVisible={projectsVisible} timeout={2250}
                   projectTitle="Focus Tennis Academy"
-                  projectDescription="A website developed on WordPress for a fitness club focusing on tennise"
+                  projectDescription="A website developed on WordPress for a fitness club focusing on tennis"
                   projectImage={fta}/>
               </Link>
             </Grid>
