@@ -484,7 +484,7 @@ function App(props) {
             <Grid item xs={12} sm={6} md={4} lg={2}>
               <ProjectCard isVisible={projectsVisible} timeout={1000}
                 projectTitle="Data Entry"
-                projectDescription="Android app used to upload inspection data to the cloud.  Built with Android, PHP, and MySQL"
+                projectDescription="Web app used to upload inspection data to the cloud.  Built with HTML, CSS, PHP, and MySQL"
                 projectImage={DataEntry}/>
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={2}>
