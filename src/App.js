@@ -524,7 +524,7 @@ function App(props) {
               </Link>
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={2}>
-              <Link target="_blank" href="https://www.quadnet.com.au/" color="inherit">
+              <Link target="_blank" href="https://focustennisacademy.com.au/" color="inherit">
                 <ProjectCard isVisible={projectsVisible} timeout={2250}
                   projectTitle="Focus Tennis Academy"
                   projectDescription="A website developed on WordPress for a fitness club focusing on tennis"
